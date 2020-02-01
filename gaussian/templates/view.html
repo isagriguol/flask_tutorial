@@ -1,0 +1,20 @@
+<h4>Give input:</h4>
+
+<form method=post action="/graph">
+    <label for="mu">mu:</label>
+    <input type="number" maxlength="100" name="mu" value=0>
+    <br>
+    <br>
+    <label for="sigma">sigma:</label>
+    <input type="number" maxlength="100" name="sigma" value=1>
+    <br>
+    <br>
+    <input type=submit value=Compute>
+</form></p>
+
+<p>
+{% if result != None %}
+<h4>Plot:</h4>
+<img src="{{result}}">
+{% endif %}
+</p>
