@@ -14,6 +14,12 @@ sh Miniconda3-latest-Linux-x86_64.sh
 rm Miniconda3-latest-Linux-x86_64.sh
 ```
 
+Reinicie o terminal e faça
+
+```
+which conda
+```
+
 ### Criando uma aplicação com Flask
 
 Clone o presente diretório fazendo:
@@ -99,7 +105,7 @@ jupyter notebook
 
 Leia atentamente as explicações para cada aplicação.
 
-No outro terminal, entre nos diretórios de cada uma das aplicações `gaussian`, `upload_plot`, `complex` e inspecione o código _app.py_ com o IDE, execute a aplicação como realizado acima. 
+No outro terminal, entre nos diretórios de cada uma das aplicações `gaussian`, `upload_plot`, `complex` e inspecione o código _app.py_ com o IDE, execute a aplicação como realizado acima. Note que a url presente no decorador (sentença seguifa por @) de cada função levara para uma url específica que deve ser acessada no navegador, exemplo http://0.0.0.0:5000/NOME.
 
 Após executar a aplicação, faça uma apresentação explicando como ela funciona, pesquise na internet como fazer outra figura com a mesma aplicação e modifique a apresentação.
 
