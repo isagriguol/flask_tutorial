@@ -105,7 +105,7 @@ jupyter notebook
 
 Leia atentamente as explicações para cada aplicação.
 
-No outro terminal, entre nos diretórios de cada uma das aplicações `gaussian`, `upload_plot`, `complex` e inspecione o código _app.py_ com o IDE, execute a aplicação como realizado acima. Note que a url presente no decorador (sentença seguifa por @) de cada função levara para uma url específica que deve ser acessada no navegador, exemplo http://0.0.0.0:5000/NOME.
+No outro terminal, entre nos diretórios de cada uma das aplicações `gaussian`, `upload_plot`, `complex` e inspecione o código _app.py_ com o IDE, execute a aplicação como realizado acima. Note que a url presente no decorador (sentença seguida por @) de cada função levará a uma url específica que deve ser acessada no navegador, exemplo http://0.0.0.0:5000/NOME. Para a aplicação `upload_plot` utilize o arquivo 'data.tsv', dentro do diretório 'flask_tutorial' para testar. Abra o arquivo no modo gráfico, clicando duas vezes, para inspecionar o conteúdo.
 
 Após executar a aplicação, faça uma apresentação explicando como ela funciona, pesquise na internet como fazer outra figura com a mesma aplicação e modifique a apresentação.
 
