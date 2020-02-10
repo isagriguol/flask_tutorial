@@ -16,4 +16,4 @@ COPY . /home/complex
 ENV FLASK_APP app.py 
 
 EXPOSE 5000
-CMD sh /home/zudimentos/run_server.sh 
+CMD sh /home/complex/run_server.sh 
