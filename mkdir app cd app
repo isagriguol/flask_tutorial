@@ -1,0 +1,6 @@
+conda create -n myapp python=3
+conda activate myapp
+which pip
+pip install flask
+
+python app.py
