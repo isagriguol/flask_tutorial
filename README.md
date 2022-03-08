@@ -139,6 +139,10 @@ Abra o arquivo `Makefile` e veja comandos do Docker presente.
 make build
 ```
 
+#### Outros exemplos avançados
+
+Para expandir aplicações com `flask` é importante ser capaz de utilizar bancos de dados, separação entre módulos e usuários. Os próximos [exemplos](advanced_topics/README.md) trabalham estes conceitos.
+
 ### Notas
 
 Caso sejam feitas modificações/adições de módulos:
